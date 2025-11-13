@@ -22,7 +22,7 @@ pipeline {
                     tomcat9(
                         credentialsId: 'tompipe',
                         path: '',
-                        url: 'http://15.207.104.222:8090'
+                        url: 'http://3.108.197.4:90'
                     )
                 ],
                 contextPath: 'bhupesh',
