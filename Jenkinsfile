@@ -20,7 +20,7 @@ pipeline {
             steps {
                 deploy adapters: [
                     tomcat9(
-                        credentialsId: 'jenkins',
+                        credentialsId: '48e0bc63-489f-49ca-a940-890c4744873d',
                         path: '',
                         url: 'http://3.108.197.4:90'
                     )
